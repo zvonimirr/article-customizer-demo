@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customizer Demo</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Customizer Demo</h1>
+      <p>This page serves as a customizer demo.</p>
+      <p>It shows just one article customization, but nothing prevents us from adding additional canvases with their own defaults and material choice.</p>
+      <canvas id="app-canvas"></canvas>
+      <div id="app-controls">
+        <img class="app-control-color" src="/assets/materials/green.jpg" />
+        <img class="app-control-color" src="/assets/materials/brick.jpg" />
+        <img class="app-control-color" src="/assets/materials/yellow.jpg" />
+        <img class="app-control-color" src="/assets/materials/red.jpg" />
+        <button id="app-controls-reset">Reset</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
